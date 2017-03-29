@@ -33,12 +33,12 @@ html > body #projTitle {
     height: 55rem;
 }
 
-#bodyBg {
+/*#bodyBg {
     background:url(/Images/titleBG.jpg);
     background-size:100%;
     background-size: cover; 
     height: 100%;
-}
+}*/
 
 .navbar-inverse {
     background-color: gold;
