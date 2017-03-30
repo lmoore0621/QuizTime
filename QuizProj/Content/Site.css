@@ -52,3 +52,50 @@ html > body #projTitle {
 .navbar-inverse .navbar-brand {
     color: black;
 }
+
+@media (max-width: 1500px){
+        .titleBg {
+        background:url(http://www.myandroidsolutions.com/wp-content/uploads/2016/12/Quiz-Time.png)  no-repeat center center;
+        background-size: 100rem;
+        height: 57rem;
+    }
+}
+
+@media (min-width: 360px){
+    .titleBg {
+        background-size: 33rem;
+        height: 20rem;
+    }
+}
+
+@media (min-width: 500px){
+        .titleBg {
+        background:url(http://www.myandroidsolutions.com/wp-content/uploads/2016/12/Quiz-Time.png)  no-repeat center center;
+        background-size: 47rem;
+        height: 28rem;
+    }
+}
+
+@media (min-width: 700px){
+        .titleBg {
+        background:url(http://www.myandroidsolutions.com/wp-content/uploads/2016/12/Quiz-Time.png)  no-repeat center center;
+        background-size: 65rem;
+        height: 38rem;
+    }
+}
+
+@media (min-width: 900px){
+        .titleBg {
+        background:url(http://www.myandroidsolutions.com/wp-content/uploads/2016/12/Quiz-Time.png)  no-repeat center center;
+        background-size: 75rem;
+        height: 43rem;
+    }
+}
+
+@media (min-width: 1300px){
+        .titleBg {
+        background:url(http://www.myandroidsolutions.com/wp-content/uploads/2016/12/Quiz-Time.png)  no-repeat center center;
+        background-size: 100rem;
+        height: 57rem;
+    }
+}
