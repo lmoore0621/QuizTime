@@ -6,17 +6,24 @@
 
 <h2>TakeQuiz</h2>
 
-<div class="row">
-    <div class="col-md-8">
+<div class="wrapper row clearfix">
+    <div class="col-md-6 row clearfix">
         <div>
             <button type="button" id="nextQuestionBtn" class="btn btn-danger">Next Question</button>
         </div>
-        <div id="uploadedQuiz">
+
+        <div id="uploadedQuiz" class="questionText">
 
         </div>
 
     </div>
+
+    <div id="answer-result" class="col-md-5">
+
+    </div>
 </div>
+
+
 
 @section Scripts {
     @Scripts.Render("~/Scripts/takeQuiz.js")
