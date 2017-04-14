@@ -27,10 +27,36 @@ html > body #projTitle {
     text-align: center;
 }
 
+.panel-primary>.panel-heading {
+    color: white;
+    background-color: limegreen;
+    border-color: darkgreen;
+    text-align: center;
+}
+
+.panel-danger > .panel-heading {
+    color: #a94442;
+    background-color: #f2dede;
+    border-color: #ebccd1;
+    text-align: center;
+}
+
+.panel-primary {
+    border-color: darkgreen;
+}
+
 .titleBg {
     background:url(http://www.myandroidsolutions.com/wp-content/uploads/2016/12/Quiz-Time.png)  no-repeat center center;
     background-size:100rem;
     height: 55rem;
+}
+
+#createNew_btn a{
+    color: white; 
+}
+
+#createNew_btn {
+    margin-bottom: 1rem;
 }
 
 /*#bodyBg {
@@ -77,13 +103,6 @@ border-radius: 7px;
 background: -webkit-gradient(linear, left top, left bottom, 
 color-stop(0%, white), color-stop(15%, white), color-stop(100%, gold)); 
 background: -moz-linear-gradient(top, white 0%, white 55%, #D5E4F3 130%); 
-}
-
-
-.panel-primary>.panel-heading {
-    color: white;
-    background-color: #337ab7;
-    border-color: #337ab7;
 }
 
 .panel-heading {

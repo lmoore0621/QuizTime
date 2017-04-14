@@ -26,7 +26,7 @@ namespace QuizProj.Controllers
 
         public ActionResult Contact()
         {
-            ViewBag.Message = "Your contact page.";
+            ViewBag.Message = "Leon Moore Contact Page";
 
             return View();
         }

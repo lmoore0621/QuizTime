@@ -12,27 +12,30 @@
         $.getJSON("/api/QuestionApi/CorrectAnswer", answerSubmission)
         .done(function (data) {
             if (data.IsCorrect) {
-                var ans
-                //document.getElementById("answer-result").innerHTML = "Right: Yeah! You got it.";
+                var chances = 0;
+                var answer = 0;
+                var cream = 5
+
                 document.getElementById("answer-result").innerHTML =
                     '<div class="panel panel-primary">' +
                        '<div class="panel-heading">' +
-                           'Right' +
+                           'Correct' +
                        '</div>' +
                        '<div class="panel-body right-answer">' +
                            'Yeah! You got it.' +
                        '</div>' +
                      '</div>';
             } else {
+              
                 document.getElementById("answer-result").innerHTML =
                     '<div class="panel panel-danger">' +
                           '<div class="panel-heading">' +
-                              'Wrong' +
+                              'Incorrect' +
                           '</div>' +
                           '<div class="panel-body wrong-answer">' +
                               'Sorry, you are a loser.' +
                           '</div>' +
-                        '</div>';
+                       '</div>';
             }
         })
         .fail(function (jqxhr, textStatus, error) {
@@ -47,7 +50,6 @@
             uploadedQuiz.innerHTML = "";
             currentQuestionId = data.QuestionId;
 
-            //uploadedQuiz.id = currentQuestionId;
             uploadedQuiz.appendChild(questionDiv);
             questionDiv.innerText = data.Content;
 
