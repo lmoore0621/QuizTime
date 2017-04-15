@@ -112,6 +112,29 @@ background: -moz-linear-gradient(top, white 0%, white 55%, #D5E4F3 130%);
     border-top-right-radius: 3px;
 }
 
+.gameOver {
+    text-align: center;
+    font-size: 4rem;
+    border-color: #ebccd1;
+        margin-bottom: 20px;
+    background-color: #fff;
+    border: 1px solid;
+    border-radius: 4px;
+    -webkit-box-shadow: 0 1px 1px rgba(0, 0, 0, .05);
+    box-shadow: 0 1px 1px rgba(0, 0, 0, .05);
+}
+
+.panel-heading > .gameOver {
+    margin-bottom: 20px;
+    background-color: #fff;
+    border: 1px solid transparent;
+    border-radius: 4px;
+    text-align: center;
+    font-size: 4rem;
+    -webkit-box-shadow: 0 1px 1px rgba(0, 0, 0, .05);
+    box-shadow: 0 1px 1px rgba(0, 0, 0, .05);
+}
+
     #answer-result {
         width: 52%;
         margin-top: 17rem;
